@@ -127,7 +127,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.4415, 40.0580]
+        "coordinates": [-82.4331, 40.0606]
       }
     },
     {
@@ -140,6 +140,103 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-82.9919, 39.3763]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Circle Earthworks (Newark)",
+        "confidence": "Excellent",
+        "feature_type": "Circle earthwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4252, 40.0469]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Square (Newark complex)",
+        "confidence": "Low",
+        "feature_type": "Junction hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4189, 40.0548]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherry Valley Ellipse",
+        "confidence": "Low",
+        "feature_type": "Burial mound area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.3985, 40.0635]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geller Park (Heath)",
+        "confidence": "Good",
+        "feature_type": "Corridor segment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4370, 40.0290]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buckeye Lake woodlot (final traced segment)",
+        "confidence": "Moderate",
+        "feature_type": "Woodlot-preserved segment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4810, 39.9330]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Circleville (Hopewell site vicinity)",
+        "confidence": "Speculative",
+        "feature_type": "Potential alternative terminus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.9460, 39.6010]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "High Bank Works (Chillicothe)",
+        "confidence": "Moderate",
+        "feature_type": "Potential southern terminus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.9730, 39.2950]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopewell Mound Group (Chillicothe)",
+        "confidence": "Moderate",
+        "feature_type": "Potential southern terminus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.0060, 39.3540]
       }
     }
   ]

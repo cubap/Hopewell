@@ -199,6 +199,46 @@ The integration of multi-temporal imagery is essential for confirming the persis
 
 ---
 
+## Video Evidence and Transcript Highlights
+
+An independent investigative video presentation ("Great Hopewell Road – LiDAR and Field Evidence", YouTube: https://youtu.be/Ltu2hJwqId8) synthesizes LiDAR visualizations, historic maps, and field observations along the Newark–Chillicothe corridor. Key factual points emphasized in the transcript align with and reinforce this report’s findings:
+
+- **Van Voorhis Walls prominence**: The video presents multiple LiDAR hillshades and on-the-ground views confirming parallel embankments north of the Newark-Heath Airport, consistent with our Excellent confidence rating for the segment anchored at 40.0580°N, 82.4415°W.
+- **Alignment consistency (~27° SW)**: Several mapped transects and overlays demonstrate a straight southwesterly azimuth from the Newark Octagon toward the Scioto valley, matching the historic cartographic orientation and our path projection.
+- **Historic aerial corroboration**: Side-by-side frames show 1930s–1980s aerials with faint linear traces south of Ramp Creek, supporting our Good confidence entries in agricultural zones where modern plowing diminishes surface expression.
+- **Airport vicinity disturbances**: The narrative notes the loss or degradation of eastern embankments near airport expansions, matching our observation of a single surviving wall in certain tiles north of the Newark runway.
+- **Field verification cues**: On-site clips indicate low earthen rises and subtle breaks in slope at expected offsets (≈40–60 m), consistent with LiDAR-derived cross-sections and the construction logic inferred from Hopewell avenues like Sacra Via at Marietta.
+- **Approach to Chillicothe**: The transcript acknowledges fragmentary or ambiguous evidence on the outwash terraces near major Hopewellian centers, in line with our Fair confidence designation close to Mound City where agriculture has heavily modified the terrain.
+
+These points provide multimedia confirmation of core analytical themes: parallelism, azimuthal alignment, multi-temporal persistence, and differential preservation linked to modern land use.
+
+## Transcript Reconciliation (Dec 2025)
+
+To align the dataset with all sites mentioned in the documentary transcript, we added locations to the working tables with confidence tags and notes for follow-up verification. This ensures transparency while enabling iterative refinement.
+
+- Added: Newark Octagon Earthworks, Great Circle Earthworks, The Square (junction), Cherry Valley Ellipse, Geller Park (Heath), Buckeye Lake woodlot (farthest traced segment), Circleville (speculative), High Bank Works (Chillicothe), Hopewell Mound Group (Chillicothe).
+- Status: Several entries use placeholder coordinates from public sources; verification pending against Ohio History Connection, NPS unit pages, GNIS, and published survey maps.
+- Confidence labeling: Excellent for well-documented Newark features; Moderate for candidate termini; Low/Speculative where the transcript references context without precise geospatial evidence.
+
+Open items for validation
+
+- Confirm exact centroids/bounds for The Square and Cherry Valley Ellipse within the Newark complex map series.
+- Locate precise Buckeye Lake woodlot segment extents referenced ~8 miles southwest of Octagon; reconcile with parcel-level LiDAR tiles.
+- Determine whether curvature in northern segments implies Circleville as a logical destination or reflects construction tolerance toward High Bank or Hopewell Mound Group.
+
+Data updates
+
+- `data/coordinates.csv`: Appended transcript-referenced sites with confidence notes and visibility/evidence flags.
+- `data/path_projection.geojson`: Added corresponding points; corrected Octagon coordinates; retained LineString projection for continuity.
+
+Next steps
+
+- Verify coordinates via authoritative sources and update confidence.
+- Regenerate KML to include newly added sites for Google Earth review.
+- Update interactive map popups to surface confidence and evidence notes for each feature.
+
+---
+
 ## Confidence Assessment Framework
 
 ### Archaeology-Specific DEMs and Confidence Mapping

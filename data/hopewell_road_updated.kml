@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hopewell Road - Updated Sites (Dec 2025)</name>
+    <Style id="sitePoint">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="linePath">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Great Hopewell Road - Newark to Chillicothe (Projected)</name>
+      <styleUrl>#linePath</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -82.4415,40.0580,0
+          -82.4332,40.0456,0
+          -82.4300,40.0372,0
+          -82.4270,40.0320,0
+          -82.4200,40.0210,0
+          -82.4150,40.0150,0
+          -82.5000,39.9500,0
+          -82.6000,39.8500,0
+          -82.7500,39.6500,0
+          -82.9000,39.4500,0
+          -82.9919,39.3763,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Folder>
+      <name>Sites</name>
+      
+      <Placemark>
+        <name>Newark Octagon Earthworks</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Northern nexus; V-intersection of avenues including the Great Hopewell Road. Confidence: Excellent</description>
+        <Point><coordinates>-82.4331,40.0606,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Great Circle Earthworks (Newark)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Major Hopewell circle; part of Newark complex. Confidence: Excellent</description>
+        <Point><coordinates>-82.4252,40.0469,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>The Square (Newark complex)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Junction hub connecting avenues; placeholder. Confidence: Low</description>
+        <Point><coordinates>-82.4189,40.0548,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Cherry Valley Ellipse</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Burial mound area; placeholder. Confidence: Low</description>
+        <Point><coordinates>-82.3985,40.0635,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Geller Park (Heath)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Reported corridor segment; starting point for 1990s walk. Confidence: Good</description>
+        <Point><coordinates>-82.4370,40.0290,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Buckeye Lake woodlot (final traced segment)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Approximate area ~8 miles from Newark. Confidence: Moderate</description>
+        <Point><coordinates>-82.4810,39.9330,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Circleville (Hopewell site vicinity)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Speculative alternative terminus if curvature intentional. Confidence: Speculative</description>
+        <Point><coordinates>-82.9460,39.6010,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>High Bank Works (Chillicothe)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Potential southern terminus. Confidence: Moderate</description>
+        <Point><coordinates>-82.9730,39.2950,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Hopewell Mound Group (Chillicothe)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Major ceremonial complex; potential terminus. Confidence: Moderate</description>
+        <Point><coordinates>-83.0060,39.3540,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Van Voorhis Walls</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Parallel embankments in woodlot. Confidence: Excellent</description>
+        <Point><coordinates>-82.4415,40.0580,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Cynthia Street Park, Heath</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Linear anomalies. Confidence: Good</description>
+        <Point><coordinates>-82.4332,40.0456,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>South of woodlot, Newark Airport</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>West wall visible. Confidence: Good</description>
+        <Point><coordinates>-82.4300,40.0372,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Near Newark Airport</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Historic traces confirmed by LiDAR. Confidence: Excellent</description>
+        <Point><coordinates>-82.4270,40.0320,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>South of James Parkway</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Excavation trench evidence. Confidence: Fair</description>
+        <Point><coordinates>-82.4200,40.0210,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Agricultural field (5350m S of Ramp Creek)</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Infrared aerial and LiDAR traces. Confidence: Good</description>
+        <Point><coordinates>-82.4150,40.0150,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Near Mound City, Chillicothe</name>
+        <styleUrl>#sitePoint</styleUrl>
+        <description>Subtle linear anomalies. Confidence: Fair</description>
+        <Point><coordinates>-82.9919,39.3763,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

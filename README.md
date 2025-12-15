@@ -138,6 +138,9 @@ We welcome contributions from archaeologists, GIS specialists, local historians,
 
 See the [full report](report/Hopewell_Road_LiDAR_Report.md) for detailed references to archaeological studies by Lepper, Romain, Burks, Schwarz, and others.
 
+### Multimedia
+- Investigative documentary: "Great Hopewell Road – LiDAR and Field Evidence" (YouTube) https://youtu.be/Ltu2hJwqId8
+
 ---
 
 **Note**: This is an independent academic analysis using publicly available datasets. The Hopewell Road is a subject of ongoing archaeological research and debate. Ground-truthing and field verification remain essential for confirming interpretations.
