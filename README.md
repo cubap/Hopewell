@@ -75,7 +75,7 @@ The analysis identifies **7 significant locations** where LiDAR and supporting e
 
 1. **[Interactive Web Map](https://cubap.github.io/Hopewell)** - Browse locations with satellite/topographic base layers
 2. **[GitHub GeoJSON Viewer](data/path_projection.geojson)** - Automatic map rendering on GitHub
-3. **[Google Earth (KML)](data/hopewell_road.kml)** - Download and open in Google Earth desktop or mobile
+3. **[Google Earth (KML)](data/hopewell_road_updated.kml)** - Download and open in Google Earth desktop or mobile
 
 ### Work with the Data
 
