@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hopewell Road Projected Path",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Hopewell Road - Newark to Chillicothe",
+        "description": "Projected path of the ancient Hopewell Road based on LiDAR, satellite imagery, and historic maps",
+        "azimuth": "27° southwest",
+        "confidence": "High in northern segment, moderate to low in southern segment",
+        "source": "Integrated LiDAR analysis, Squier & Davis (1848), Salisbury (1862), Reeves (1936)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-82.4415, 40.0580],
+          [-82.4332, 40.0456],
+          [-82.4300, 40.0372],
+          [-82.4270, 40.0320],
+          [-82.4200, 40.0210],
+          [-82.4150, 40.0150],
+          [-82.5000, 39.9500],
+          [-82.6000, 39.8500],
+          [-82.7500, 39.6500],
+          [-82.9000, 39.4500],
+          [-82.9919, 39.3763]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van Voorhis Walls",
+        "confidence": "Excellent",
+        "feature_type": "Parallel embankments"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4415, 40.0580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cynthia Street Park, Heath",
+        "confidence": "Good",
+        "feature_type": "Linear anomalies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4332, 40.0456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South of woodlot, Newark Airport",
+        "confidence": "Good",
+        "feature_type": "West wall visible"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4300, 40.0372]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Near Newark Airport",
+        "confidence": "Excellent",
+        "feature_type": "Historic traces confirmed by LiDAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4270, 40.0320]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South of James Parkway",
+        "confidence": "Fair",
+        "feature_type": "Excavation trench evidence"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4200, 40.0210]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agricultural field (5350m S of Ramp Creek)",
+        "confidence": "Good",
+        "feature_type": "Infrared aerial and LiDAR traces"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4150, 40.0150]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Near Mound City, Chillicothe",
+        "confidence": "Fair",
+        "feature_type": "Subtle linear anomalies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.9919, 39.3763]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newark Octagon Earthworks",
+        "description": "Northern terminus of the Hopewell Road",
+        "site_type": "Hopewellian ceremonial center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.4415, 40.0580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mound City Group",
+        "description": "Southern terminus area (hypothesized)",
+        "site_type": "Hopewellian ceremonial center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.9919, 39.3763]
+      }
+    }
+  ]
+}

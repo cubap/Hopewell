@@ -1,0 +1,8 @@
+Location,Latitude,Longitude,Feature_Description,Confidence_Level,Satellite_Visible,Historic_Evidence
+Van Voorhis Walls,40.0580,-82.4415,"Parallel embankments 50 m apart, 0.3–0.5 m high, visible in woodlot north of Newark Airport. LiDAR cross-sections show central depression.",Excellent,Yes,Yes
+Cynthia Street Park Heath,40.0456,-82.4332,"Two linear anomalies trending NE-SW in geophysical and LiDAR data, matching projected GHR path.",Good,Faint,Yes
+South of woodlot Newark Airport,40.0372,-82.4300,"West wall visible in 2006 aerials and LiDAR; east wall absent, likely due to disturbance.",Good,Partial,Yes
+Near Newark Airport,40.0320,-82.4270,"1930s aerials show straight, continuous traces of parallel walls; LiDAR confirms subtle relief.",Excellent,Partial,Yes
+South of James Parkway,40.0210,-82.4200,"Excavation trench (124 m) reveals thickened subsoil and dip, possible wall and ditch; LiDAR shows subtle linearity.",Fair,No,Limited
+Agricultural field 5350m S of Ramp Creek,40.0150,-82.4150,"Parallel lines at 27° azimuth in 1988 infrared aerial; LiDAR shows faint linear depressions.",Good,Yes,Yes
+Near Mound City Chillicothe,39.3763,-82.9919,"No direct LiDAR evidence of parallel embankments, but subtle linear anomalies on outwash terrace align with projected path.",Fair,No,Limited
