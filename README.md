@@ -17,7 +17,7 @@ The Great Hopewell Road (GHR) is one of North America's most enigmatic prehistor
 ## 📂 Repository Structure
 
 - **[report/](report/)** - Detailed Markdown analysis with tables of coordinates, descriptions, and confidence levels
-  - [Hopewell_Road_LiDAR_Report.md](report/Hopewell_Road_LiDAR_Report.md) - Complete analysis
+  - [Hopewell_Road_LiDAR_Report](report/Hopewell_Road_LiDAR_Report.html) - Complete analysis
   - [figures/](report/figures/) - Annotated maps and comparison imagery
 - **[data/](data/)** - Source references, coordinate datasets, and GIS files
   - `lidar_sources.md` - References to USGS 3DEP, OGRIP, and county GIS datasets

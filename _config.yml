@@ -1,0 +1,36 @@
+title: Hopewell Road LiDAR Analysis
+description: Interactive map and report for the Great Hopewell Road LiDAR study
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
+
+# Theme for basic page rendering (index.html remains custom)
+theme: minima
+
+# Enable processing of Markdown files without front matter
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Ensure these Markdown files are built into HTML by GitHub Pages
+include:
+  - README.md
+  - CONTRIBUTING.md
+  - report/Hopewell_Road_LiDAR_Report.md
+  - maps/README.md
+  - report/figures/README.md
+  - data/lidar_sources.md
+
+# Apply a default layout to rendered pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
