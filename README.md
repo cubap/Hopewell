@@ -1,6 +1,14 @@
 # Hopewell Road LiDAR Analysis
 
 A comprehensive study of LiDAR and satellite evidence for remnants of the ancient Great Hopewell Road between Newark, Ohio, and Chillicothe.
+## 🌐 Interactive Map
+
+**[View the Interactive Map →](https://cubap.github.io/Hopewell)** 
+
+Explore LiDAR-detected features on an interactive Leaflet map with satellite imagery, confidence levels, and detailed descriptions.
+
+---
+
 
 ## 🗺️ Overview
 
@@ -61,19 +69,42 @@ The analysis identifies **7 significant locations** where LiDAR and supporting e
 - Salisbury and Salisbury (1862)
 - Reeves (1936)
 
-## 🚀 How to Use
+## 🚀 Getting Started
 
-1. **Read the Report**: Start with [Hopewell_Road_LiDAR_Report.md](report/Hopewell_Road_LiDAR_Report.md) for the complete analysis
-2. **Explore the Data**: Load `data/path_projection.geojson` in QGIS or other GIS tools
-3. **View Maps**: Open `maps/annotated_path.qgz` in QGIS to explore annotated features
-4. **Reference Coordinates**: Use `data/coordinates.csv` for key locations and confidence levels
+### Explore Online
 
-## 🗺️ Map Annotation Features
+1. **[Interactive Web Map](https://cubap.github.io/Hopewell)** - Browse locations with satellite/topographic base layers
+2. **[GitHub GeoJSON Viewer](data/path_projection.geojson)** - Automatic map rendering on GitHub
+3. **[Google Earth (KML)](data/hopewell_road.kml)** - Download and open in Google Earth desktop or mobile
+
+### Work with the Data
+
+1. **[Read the Full Report →](report/Hopewell_Road_LiDAR_Report.md)** - Complete analysis with methodology
+2. **Load in GIS Software** - Use `data/path_projection.geojson` in QGIS, ArcGIS, or other tools
+3. **Analyze in QGIS** - Open `maps/annotated_path.qgz` for LiDAR overlays and annotations
+4. **Reference Coordinates** - Download `data/coordinates.csv` for spreadsheet analysis
+
+## 🗺️ Visualization Options
+
+### Interactive Web Map Features
+- Switchable base layers (Streets, Satellite, Topographic)
+- Color-coded markers by confidence level
+- Clickable popups with feature details
+- Projected path overlay
+- Mobile-responsive design
+
+### GIS Project Features
 
 The QGIS project includes:
 - **LiDAR overlays**: Highlighted linear embankments and parallel walls
 - **Satellite comparison layers**: Multi-temporal imagery showing feature persistence
 - **Projected path**: Dashed polyline connecting Newark Earthworks → Circleville Works → Chillicothe
+
+### Google Earth KML
+- Organized folders for remnants, projected path, and major sites
+- Color-coded by confidence level
+- Detailed descriptions with report links
+- 3D terrain visualization
 
 ## 📜 Citation
 
@@ -83,7 +114,7 @@ If you use this data or analysis, please cite:
 Hopewell Road LiDAR Analysis (2025)
 LiDAR-Based Detection and Analysis of the Ancient Hopewell Road: 
 Public Datasets, Feature Identification, and Path Projection from Newark to Chillicothe, Ohio
-https://github.com/[yourusername]/Hopewell
+https://github.com/cubap/Hopewell
 ```
 
 ## 📄 License
@@ -92,7 +123,16 @@ Open data and analysis are shared under [CC-BY 4.0](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, corrections, and additional data sources are welcome. Please open an issue or submit a pull request.
+We welcome contributions from archaeologists, GIS specialists, local historians, and anyone with relevant data! 
+
+### How to Contribute
+
+- **Report New Features** - Found remnants in LiDAR data? [Use our template →](https://github.com/cubap/Hopewell/issues/new?template=new-feature-report.md)
+- **Submit Corrections** - Improved coordinates or data? [Report here →](https://github.com/cubap/Hopewell/issues/new?template=coordinate-correction.md)
+- **Share Ground Verification** - Visited a location? [Share your observations →](https://github.com/cubap/Hopewell/issues/new?template=ground-verification-report.md)
+- **Add Data Sources** - Know of new LiDAR datasets? [Submit here →](https://github.com/cubap/Hopewell/issues/new?template=data-source-submission.md)
+
+**[Read Full Contribution Guidelines →](CONTRIBUTING.md)**
 
 ## 📚 References
 

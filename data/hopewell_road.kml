@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Great Hopewell Road - Newark to Chillicothe</name>
+    <description>LiDAR-detected remnants of the ancient Hopewell Road (100 BCE - 400 CE). Data from public LiDAR datasets, satellite imagery, and historic maps. Project: https://github.com/cubap/Hopewell</description>
+    
+    <!-- Styles for confidence levels -->
+    <Style id="confidence-excellent">
+      <IconStyle>
+        <color>ff10b981</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    
+    <Style id="confidence-good">
+      <IconStyle>
+        <color>ff84cc16</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    
+    <Style id="confidence-fair">
+      <IconStyle>
+        <color>fff59e0b</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    
+    <Style id="confidence-poor">
+      <IconStyle>
+        <color>ffef4444</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    
+    <Style id="projected-path">
+      <LineStyle>
+        <color>ff8b5cf6</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    
+    <Style id="site-marker">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    
+    <!-- Folders for organization -->
+    <Folder>
+      <name>Identified Road Remnants</name>
+      <description>Locations where LiDAR and satellite data reveal features consistent with the Hopewell Road</description>
+      
+      <Placemark>
+        <name>Van Voorhis Walls</name>
+        <description><![CDATA[
+          <h3>Van Voorhis Walls</h3>
+          <p><strong>Confidence:</strong> Excellent</p>
+          <p><strong>Feature Type:</strong> Parallel embankments</p>
+          <p><strong>Description:</strong> Parallel embankments 50 m apart, 0.3–0.5 m high, visible in woodlot north of Newark Airport. LiDAR cross-sections show central depression.</p>
+          <p><strong>Satellite Visibility:</strong> Yes - Historic aerials (1934, 2006) and recent NAIP imagery confirm alignment and persistence; minimal modern disturbance.</p>
+          <p><strong>Coordinates:</strong> 40.0580°N, 82.4415°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#1-van-voorhis-walls-400580n-824415w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-excellent</styleUrl>
+        <Point>
+          <coordinates>-82.4415,40.0580,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Cynthia Street Park, Heath</name>
+        <description><![CDATA[
+          <h3>Cynthia Street Park, Heath</h3>
+          <p><strong>Confidence:</strong> Good</p>
+          <p><strong>Feature Type:</strong> Linear anomalies</p>
+          <p><strong>Description:</strong> Two linear anomalies trending NE-SW in geophysical and LiDAR data, matching projected GHR path.</p>
+          <p><strong>Satellite Visibility:</strong> Faint - Satellite imagery shows faint linear discolorations; geophysical surveys (magnetic, resistance) corroborate.</p>
+          <p><strong>Coordinates:</strong> 40.0456°N, 82.4332°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#2-cynthia-street-park-heath-400456n-824332w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-good</styleUrl>
+        <Point>
+          <coordinates>-82.4332,40.0456,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>South of woodlot, Newark Airport</name>
+        <description><![CDATA[
+          <h3>South of woodlot, Newark Airport</h3>
+          <p><strong>Confidence:</strong> Good</p>
+          <p><strong>Feature Type:</strong> West wall visible</p>
+          <p><strong>Description:</strong> West wall visible in 2006 aerials and LiDAR; east wall absent, likely due to disturbance.</p>
+          <p><strong>Satellite Visibility:</strong> Partial - Satellite imagery shows partial linearity; modern development encroaches.</p>
+          <p><strong>Coordinates:</strong> 40.0372°N, 82.4300°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#3-south-of-woodlot-north-of-newark-airport-400372n-824300w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-good</styleUrl>
+        <Point>
+          <coordinates>-82.4300,40.0372,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Near Newark Airport</name>
+        <description><![CDATA[
+          <h3>Near Newark Airport</h3>
+          <p><strong>Confidence:</strong> Excellent</p>
+          <p><strong>Feature Type:</strong> Historic traces confirmed by LiDAR</p>
+          <p><strong>Description:</strong> 1930s aerials show straight, continuous traces of parallel walls; LiDAR confirms subtle relief.</p>
+          <p><strong>Satellite Visibility:</strong> Partial - Modern imagery shows partial traces; airport expansion has destroyed some features.</p>
+          <p><strong>Coordinates:</strong> 40.0320°N, 82.4270°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#4-near-newark-airport-400320n-824270w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-excellent</styleUrl>
+        <Point>
+          <coordinates>-82.4270,40.0320,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>South of James Parkway</name>
+        <description><![CDATA[
+          <h3>South of James Parkway</h3>
+          <p><strong>Confidence:</strong> Fair</p>
+          <p><strong>Feature Type:</strong> Excavation trench evidence</p>
+          <p><strong>Description:</strong> Excavation trench (124 m) reveals thickened subsoil and dip, possible wall and ditch; LiDAR shows subtle linearity.</p>
+          <p><strong>Satellite Visibility:</strong> No - Satellite imagery shows no clear surface feature; trench data suggest buried remnants.</p>
+          <p><strong>Coordinates:</strong> 40.0210°N, 82.4200°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#5-south-of-james-parkway-400210n-824200w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-fair</styleUrl>
+        <Point>
+          <coordinates>-82.4200,40.0210,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Agricultural field (5350m S of Ramp Creek)</name>
+        <description><![CDATA[
+          <h3>Agricultural field (5350m South of Ramp Creek)</h3>
+          <p><strong>Confidence:</strong> Good</p>
+          <p><strong>Feature Type:</strong> Infrared aerial and LiDAR traces</p>
+          <p><strong>Description:</strong> Parallel lines at 27° azimuth in 1988 infrared aerial; LiDAR shows faint linear depressions.</p>
+          <p><strong>Satellite Visibility:</strong> Yes - 2005–2008 Google Earth imagery shows persistent linear features; field plowing reduces surface visibility.</p>
+          <p><strong>Coordinates:</strong> 40.0150°N, 82.4150°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#6-agricultural-field-5350-m-south-of-ramp-creek-400150n-824150w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-good</styleUrl>
+        <Point>
+          <coordinates>-82.4150,40.0150,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Near Mound City, Chillicothe</name>
+        <description><![CDATA[
+          <h3>Near Mound City, Chillicothe</h3>
+          <p><strong>Confidence:</strong> Fair</p>
+          <p><strong>Feature Type:</strong> Subtle linear anomalies</p>
+          <p><strong>Description:</strong> No direct LiDAR evidence of parallel embankments, but subtle linear anomalies on outwash terrace align with projected path.</p>
+          <p><strong>Satellite Visibility:</strong> No - Satellite imagery shows agricultural disturbance; proximity to Hopewellian earthworks supports interpretation.</p>
+          <p><strong>Coordinates:</strong> 39.3763°N, 82.9919°W</p>
+          <p><a href="https://github.com/cubap/Hopewell/blob/main/report/Hopewell_Road_LiDAR_Report.md#7-near-mound-city-chillicothe-393763n-829919w">View in Report</a></p>
+        ]]></description>
+        <styleUrl>#confidence-fair</styleUrl>
+        <Point>
+          <coordinates>-82.9919,39.3763,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    
+    <Folder>
+      <name>Projected Path</name>
+      <description>Hypothesized route of the Great Hopewell Road based on integrated analysis</description>
+      
+      <Placemark>
+        <name>Great Hopewell Road - Projected Path</name>
+        <description><![CDATA[
+          <h3>Projected Path</h3>
+          <p><strong>Azimuth:</strong> 27° southwest</p>
+          <p><strong>Distance:</strong> ~60 miles (Newark to Chillicothe)</p>
+          <p>This line represents the hypothesized path based on LiDAR analysis, historic maps (Squier & Davis 1848, Salisbury 1862), and spatial logic connecting major Hopewellian centers.</p>
+          <p><a href="https://github.com/cubap/Hopewell">View Full Project</a></p>
+        ]]></description>
+        <styleUrl>#projected-path</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -82.4415,40.0580,0
+            -82.4332,40.0456,0
+            -82.4300,40.0372,0
+            -82.4270,40.0320,0
+            -82.4200,40.0210,0
+            -82.4150,40.0150,0
+            -82.5000,39.9500,0
+            -82.6000,39.8500,0
+            -82.7500,39.6500,0
+            -82.9000,39.4500,0
+            -82.9919,39.3763,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    
+    <Folder>
+      <name>Major Hopewellian Sites</name>
+      <description>Ceremonial centers connected by the road</description>
+      
+      <Placemark>
+        <name>Newark Octagon Earthworks</name>
+        <description><![CDATA[
+          <h3>Newark Octagon Earthworks</h3>
+          <p><strong>Type:</strong> Hopewellian ceremonial center</p>
+          <p><strong>Significance:</strong> Northern terminus of the Great Hopewell Road</p>
+          <p>UNESCO World Heritage Site (as part of Hopewell Ceremonial Earthworks). The Octagon is aligned with the maximum northern moonrise, demonstrating sophisticated astronomical knowledge.</p>
+          <p><a href="https://www.nps.gov/places/newark-earthworks.htm">National Park Service</a></p>
+        ]]></description>
+        <styleUrl>#site-marker</styleUrl>
+        <Point>
+          <coordinates>-82.4415,40.0580,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Mound City Group</name>
+        <description><![CDATA[
+          <h3>Mound City Group</h3>
+          <p><strong>Type:</strong> Hopewellian ceremonial center</p>
+          <p><strong>Significance:</strong> Hypothesized southern terminus area</p>
+          <p>Part of Hopewell Culture National Historical Park. Contains 23 burial mounds within a geometric earthen enclosure, showcasing the artistic and engineering achievements of the Hopewell culture.</p>
+          <p><a href="https://www.nps.gov/hocu/index.htm">National Park Service</a></p>
+        ]]></description>
+        <styleUrl>#site-marker</styleUrl>
+        <Point>
+          <coordinates>-82.9919,39.3763,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    
+  </Document>
+</kml>
